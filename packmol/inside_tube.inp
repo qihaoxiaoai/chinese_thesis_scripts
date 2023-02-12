@@ -1,0 +1,13 @@
+tolerance 2.0
+output 12-d-1.pdb
+
+structure 12-12.pdb
+number 1
+center
+fixed 18.136 18.136 8.6085 0 0 0
+end structure
+
+structure H2O.pdb
+number 120
+inside cylinder 18.136 18.136 0 0 0 1 8.136 17.21658502723464
+end structure
