@@ -1,0 +1,19 @@
+two terminal outsider
+tolerance 2.0
+output test-1.pdb
+
+structure 12-12.pdb
+  number 1
+  center
+  fixed 18.136 18.136 16.1085 0 0 0
+end structure
+
+structure H2O.pdb
+  number 100
+  inside box 0 0 0 36.272 36.272 7.748
+end structure
+
+structure H2O.pdb
+  number 100
+  inside box 0 0 24.46900 36.272 36.272 32.217
+end structure
