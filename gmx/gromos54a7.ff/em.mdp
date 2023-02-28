@@ -1,0 +1,19 @@
+define = -DFLEXIBLE
+integrator = cg
+nsteps = 10000
+emtol  = 100.0
+emstep = 0.01
+;
+nstxout   = 20
+nstlog    = 50
+nstenergy = 50
+;
+pbc = xyz
+cutoff-scheme            = Verlet
+coulombtype              = PME
+rcoulomb                 = 0.9
+vdwtype                  = Cut-off
+rvdw                     = 0.9
+DispCorr                 = EnerPres
+;
+constraints              = none
